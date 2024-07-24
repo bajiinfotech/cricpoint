@@ -1,0 +1,41 @@
+body{margin-top:20px;}
+
+.post-list {
+  position: relative;
+  /* padding: 5px 0; */
+}
+
+
+.post-list .label{
+    font-weight:normal;    
+}
+
+.media img{
+   width: 30%;
+   height: auto;
+}
+
+
+
+
+
+
+
+.post-list p {
+  float: left;
+}
+
+.post-list:after {
+  height: 1px;
+  background: #EEEEEE;
+  width: 83.3333%;
+  bottom: 0;
+  right: 0;
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+
+
+

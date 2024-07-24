@@ -1,0 +1,103 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* single post styling BY DANGUROUSLY LOAD HTML */
+.catsingle a{
+  color:#0f0fd4;
+}
+.post-title{
+  /* color: #cc0000 !important; */
+  text-align: left;
+}
+.catsingle h2{
+  /* color: #cc0000; */
+  font-size: 25px;
+}
+.catsingle h3{
+  /* color: #cc0000; */
+  font-size: 15px;
+}
+.catsingle img {
+  width: 80%;
+  height: 80%;
+  overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.catsingle table{
+  width: 100%;
+  /* width: 100%; */
+  overflow-x:auto;
+  /* text-align : center */
+}
+.catsingle table th{
+  background-color: #4d8ed9;
+  color: white
+}
+
+.catsingle td, th{
+  border: 1px solid #ddd;
+  padding: 8px;
+  
+}
+
+.catsingle tr:nth-child(even){background-color: #f2f2f2;}
+
+.catsingle tr:hover {background-color: #fcb66e;}
+
+.catsingle th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* 
+ * Posts navigation
+ */
+ .posts-post-nav {
+  width: 100%;
+  display: flex;
+  flex-flow: collumn;
+  margin-bottom: 30px;
+}
+.posts-post-nav button {
+  display: block;
+  width: 80px;
+  padding: 4px 10px 4px 10px;
+  background: none;
+  border: solid 3px #cc0000;
+  background: #cc0000;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 26px;
+}
+.posts-post-nav button:hover {
+  background: #ffffff;
+  color: #cc0000;
+}
+.posts-post-nav p {
+  flex-grow: 1;
+  text-align: center;
+  padding: 0;
+  margin: 5px 0 0 0;
+  color: #999999;
+}
+
+

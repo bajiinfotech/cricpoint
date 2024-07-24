@@ -1,0 +1,113 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.loader {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100px;
+}
+
+/* .posts-container {
+	margin-left: 16px;
+} */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1020px) {
+
+	.navbar-expand-lg .navbar-nav {
+		flex-direction: row;
+	}
+
+	.navbar-expand-lg .nav-item {
+		padding-right: 16px;
+	}
+}
+
+/* posts */
+/* .post-wrapper {
+	background-color: #fff;
+	margin-bottom: 36px;
+	padding: 24px 36px;
+} */
+
+.post-title {
+	color: #000000;
+	font-size: 26px;
+	display: inline-block;
+}
+
+/*Post Loader css*/
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.loader-title {
+	display: block;
+	height: 54px;
+	background-image: linear-gradient(-45deg, #fff, #f3f4f4, #fff, #f3f4f4 );
+	background-size: 400% 400%;
+	animation: gradientBG 3s ease infinite;
+}
+
+.loader-img {
+	display: block;
+	height: 300px;
+	background-image: linear-gradient(-45deg, #fff, #f3f4f4, #fff, #f3f4f4 );
+	background-size: 400% 400%;
+	animation: gradientBG 3s ease infinite;
+}
+
+.loader-excerpt {
+	display: block;
+	height: 100px;
+	background-image: linear-gradient(-45deg, #fff, #f3f4f4, #fff, #f3f4f4 );
+	background-size: 400% 400%;
+	animation: gradientBG 3s ease infinite;
+}
+
+.loader-author,
+.loader-date,
+.loader-category {
+	display: block;
+	width: 100px;
+	height: 24px;
+	background-image: linear-gradient(-45deg, #fff, #f3f4f4, #fff, #f3f4f4 );
+	background-size: 400% 400%;
+	animation: gradientBG 3s ease infinite;
+	margin-right: 20px;
+}
